@@ -61,8 +61,6 @@ body{
     position: relative;
     top: 35vh;
     margin-left: 1.5vw;
-   
-
 }
 input[type='checkbox'] {
 	height: 0;
@@ -76,6 +74,13 @@ input[type='checkbox'] {
     background-color: var(--color-off);
 }
 /* navigation */
+/* #screen{
+    background-color: var(--color-text);
+    opacity: .3;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+} */
 #navigation{
     background: black;
     width:85vw;
@@ -101,15 +106,15 @@ nav {
 .nav-links {
     display: flex;
     list-style: none;
-    width: 50%;
-    height: 100%;
+    /* width: 50%;
+    height: 100%; */
     justify-content: space-around;
     align-items: center;
     margin-left: auto;
     position: fixed;
     background-color: var(--bg);
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     flex-direction: column;
     clip-path: circle(100px at 110% -10%);
     -webkit-clip-path: circle(100px at 110% -10%);
@@ -245,8 +250,8 @@ li.fade {
     width: 35vw;
     margin: 50px;
 }
-#purple-abstract{
-    z-index: 0;
+#purple-abstract-mobile{
+    display: none;
 }
 #social{
     height: 50vh;
