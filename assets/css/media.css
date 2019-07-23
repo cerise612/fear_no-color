@@ -1,0 +1,63 @@
+/* ----------- phone ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    h1 {
+        color: var(--color-headings);
+        font-size: 2.5em;
+    }
+    #banner{
+        margin: 0 20px;
+    }
+    #purple-abstract{
+        /* height: auto;
+        width: 50vw; */
+        padding-bottom: 10vh;
+        padding-left: 5vw;
+        }
+        #banner-name{
+            right: 20vw;
+            margin: 20vh 0;
+        }
+        #banner-headline{
+            right: 20vw;
+            margin: 15vh 0;
+        }
+        #banner-text{
+            right: 10vw;
+            margin: 20vh 0;
+        }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- tablet----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+
