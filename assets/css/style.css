@@ -43,6 +43,7 @@ body{
     }
     h6 {
         color: var(--color-subheadings);
+        font-weight: bold;
     }
     p{
         color: var(--color-text);
