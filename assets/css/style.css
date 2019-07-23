@@ -12,8 +12,8 @@ html {
 	--color-text: #272627;
 	--color-off: #aeb2b7;
     --color-on: #272627;
-    /* font-family: 'Montserrat', sans-serif;
-    font-family: 'Montserrat Alternates', sans-serif; */
+    font-family: 'Poiret One', cursive;
+    /* font-family: 'Limelight', cursive; */
 }
 html[data-theme='dark'] {
 	--bg: #272627;
@@ -34,6 +34,7 @@ html[data-theme='dark'] {
 body{
     height: 100vh;
     background-color: var(--bg);
+    font-family: 'Poiret One', cursive;
 }
     /* text */
     h1 {
