@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Limelight|Poiret+One&display=swap" rel="stylesheet">
 
-    <title>Schulte Studio</title>
+    <title>Schulte Gallery</title>
 </head>
 
 <body>
@@ -27,9 +27,9 @@
             </div>
             <ul class="nav-links">
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUTt</a></li>
+                <li><a href="about.html">ABOUT</a></li>
                 <li><a href="gallery.html">GALLERY</a></li>
-                <li><a href="contact.html">CONTACT</a></li> 
+                <li><a href="contact.html">CONTACT</a></li>
             </ul>
         </nav>
     </div>
@@ -67,27 +67,32 @@
                 class="social-link">FACEBOOK</a>
             <a href="#" target="_blank" class="social-link">INSTAGRAM</a>
         </div>
-        <span id="banner-panel">
+        <span id="contact-panel">
             <div id="banner-name">
                 <b>
                     <h6>SCHULTE STUDIOS</h6>
                 </b>
             </div>
             <div id="banner-headline">
-                <h1>FEAR NO COLOR</h1>
+                <h2>SAY HELLO</h2>
             </div>
-            <div id="banner-text">
-                <p>MY PAINTINGS ARE INFLUENCED BY CUBISM, EXPRESSIONISM, SURREALISM, AND THE USE OF BOLD COLOR. ART DECO
-                    AND MODERNISM PLAYS A GREAT ROLE IN THE COMPOSITION OF MY PAINTINGS. SOME OF MY FAVORITE ARTISTS ARE
-                    REALIST IN EVERY WAY…LANDSCAPES, STILL LIFE, AND PORTRAITS. I STARTED MY JOURNEY IN PAINTING AND
-                    DRAWING, CENTERED IN REALIST WORK SUCH AS LANDSCAPES AND STILL LIFE, HOWEVER MY TRADE IS TO PAINT
-                    WITH COLOR, DESIGN, AND IMAGINATION.
-                    <a href="gallery.html">GALLERY</a></p>
+            <div id="contact-form">
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/fearnocolor7@gmail.com" method="post">
+                <fieldset id="fs-frm-inputs">
+                  <label for="full-name"></label>
+                  <input type="text" name="name" id="full-name" placeholder="YOUR NAME" required="">
+                  <label for="email-address"></label>
+                  <input type="email" name="_replyto" id="email-address" placeholder="YOUR EMAIL" required="">
+                  <label for="message"></label>
+                  <textarea rows="5" name="message" id="message" placeholder="MESSAGE" required=""></textarea>
+                  <input type="hidden" name="_subject" id="email-subject" value="Fear No Color">
+                </fieldset>
+                <input type="submit" value="Submit" id="submit">
+              </form>
             </div>
         </span>
        
     </div>
-    <div id="screen"></div>
     <!-- Optional JavaScript -->
     <script src="assets/js/app.js" />
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
