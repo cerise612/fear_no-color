@@ -31,18 +31,20 @@
   #dark-mode{
     top: 15vh;
 }
+/* home page */
   #purple-abstract-mobile{
     display: block;
+    width: 70vw;
+    height:50vh; 
 }
 #purple-abstract{
   display: none;
 }
 #banner-panel{
   height: 30vh;
-  width: 60vw;
-  position: relative;
-  right: 30vw;
- bottom: 10vh;
+  width: 70vw;
+  right: 55vw;
+ top: 30vh;
 }
 #banner-image{
   right: 8vw;
@@ -64,13 +66,43 @@
   height: 8vh;
   width: 30vw;
   /* float: right; */
-  top: 22vh;
+  top: 58.5vh;
   left: 2vw; 
   /* right */
   z-index: 4;
-  
-
 }
+/* about page */
+#about-panel{
+  height: 50vh;
+  width: 70vw;
+  right: 55vw;
+ top: 10vh;
+}
+#about-social{
+  height: 8vh;
+  width: 30vw;
+  /* float: right; */
+  top: 50vh;
+  left: 2vw; 
+  /* right */
+  z-index: 4;
+}
+/* gallery page */
+#gallery-panel{
+  margin: 0 5vw;
+  
+}
+#right-side{
+  margin: 20vh 5vw 0 3vw;
+}
+.image-text{
+width: 30vw;
+margin: 0 1vw 5vh 1vw;
+left: 5vw;
+}
+#gallery-social{
+  width: 30vw;
+  height: 10vh
   }
 
 /* Landscape */

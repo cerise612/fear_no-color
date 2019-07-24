@@ -262,8 +262,6 @@ li.fade {
     position: relative;
     top: 30vh;
     left: 20vw;
-    
-
 }
 .social-link{
   margin: 17px;
@@ -313,6 +311,21 @@ height:0;
     /* margin: 5px; */
 }
 /* about page */
-/* #about-text{
-    width: 30vw;
-} */
+#about-panel{
+    background-color: var(--bg-panel);
+    height: 55vh;
+    width: 50vw;
+    position: relative;
+    right: 15vw;
+    /* top: 10vh; */
+}
+#about-social{
+    height: 50vh;
+    width: 15vw;
+    background-color: var(--bg-panel-2);
+    float: right;
+    transform: rotate(90deg);
+    position: relative;
+    top: 30vh;
+    left: 20vw;
+}
